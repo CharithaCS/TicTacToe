@@ -53,4 +53,9 @@ public class Player {
         System.out.println("Player Name: " + this.name);
         System.out.println("Player Age: " + this.age);
     }
+    
+    public void getPlayerNameAndSymbol() {
+        System.out.println("Player Name: " + this.name);
+        System.out.println("Player Symbol: " + this.symbol);
+    }
 }
